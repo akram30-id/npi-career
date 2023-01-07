@@ -20,7 +20,7 @@
     <div class="row justify-content-between align-items-center">
         <div class="col-sm-7">
             <div class="row">
-                <h1 class="fw-bold">Data Pelamar</h1>
+                <h1 class="fw-bold">Apply Ke Posisi</h1>
                 <h1 class="fw-bold">IT Staff - Network Administrator</h1>
             </div>
         </div>
@@ -36,173 +36,182 @@
 </div>
 
 <div class="container mt-5">
-    <form action="<?= base_url() . 'Careers/applyLowongan'; ?>">
-        <div class="row">
-            <div class="col-sm-5">
-                <!-- DATA PERSONAL -->
-                <h3 class="fw-bold text-black">Data Personal</h3>
-                <hr style="border-top: 3px solid #000; margin-top: -4px;">
-                <div class="mb-4"></div>
-                <label for="nama" class="form-label fw-bold">Nama Lengkap</label>
-                <input type="text" class="form-control" id="nama">
-                <div class="row mt-4">
-                    <div class="col-sm-8">
-                        <label for="tempat" class="form-label fw-bold">Tempat Lahir</label>
-                        <input type="text" class="form-control" id="tempat">
-                    </div>
-                    <div class="col-sm-4">
-                        <label for="tglLahir" class="form-label fw-bold">Tanggal Lahir</label>
-                        <input type="date" class="form-control" id="tglLahir">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-8 mt-4">
-                        <label for="email" class="form-label fw-bold">Alamat Email</label>
-                        <input type="email" class="form-control" id="email">
-                    </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-sm-8 mt-4">
-                        <label for="nomor" class="form-label fw-bold">Nomor Kontak</label>
-                        <input type="number" class="form-control" id="nomor">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-1"></div>
 
-            <div class="col-sm-5">
-                <!-- PENDIDIKAN TERAKHIR -->
-                <h3 class="fw-bold text-black">Pendidikan Terakhir</h3>
-                <hr style="border-top: 3px solid #000; margin-top: -4px;">
-                <div class="row mt-4">
-                    <div class="col-sm-4">
-                        <label for="jenjang" class="form-label fw-bold">Jenjang</label>
-                        <select name="jenjang" id="" class="form-select">
-                            <option value="">-Pilih Jenjang-</option>
-                            <option value="">SMP/Sederajat</option>
-                            <option value="">SMA/Sederajat</option>
-                            <option value="">S1/Sederajat</option>
-                            <option value="">S2</option>
-                            <option value="">S3</option>
-                        </select>
-                    </div>
-                    <div class="col-sm-8">
-                        <label for="prodi" class="form-label fw-bold">Program Studi</label>
-                        <input type="text" class="form-control" id="prodi">
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-sm-8">
-                        <label for="institusi" class="form-label fw-bold">Institusi Pendidikan</label>
-                        <input type="text" class="form-control" id="institusi">
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-sm-4">
-                        <label for="mulai" class="form-label fw-bold">Tgl Mulai</label>
-                        <input type="date" class="form-control" id="mulai">
-                    </div>
-                    <div class="col-sm-4">
-                        <label for="terakhir" class="form-label fw-bold">Tgl Berakhir</label>
-                        <input type="date" class="form-control" id="terakhir">
-                    </div>
-                </div>
-                <div class="row mt-4 mb-5">
-                    <div class="col-sm-12">
-                        <label class="form-label fw-bold">Deskripsi</label>
-                        <textarea class="form-control" name="deskripsi" rows="5"></textarea>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <form id="section-1">
+        <div class="row mb-3">
 
-        <!-- PENGALAMAN KERJA -->
-        <h3 class="fw-bold text-black">Pengalaman Kerja</h3>
-        <div class="col-sm-5">
-            <hr style="border-top: 3px solid #000; margin-top: -4px;">
-        </div>
+            <!-- DATA PERSONAL -->
+            <div class="col-sm-6 mb-3">
+                <div class="card border-0 shadow-lg p-4" style="border-radius: 16px;">
+                    <div class="card-body">
+                        <h3 class="fw-bold text-black">Data Personal</h3>
+                        <hr style="border-top: 3px solid #000; margin-top: -4px;">
+                        <div class="mb-4"></div>
+                        <label for="nama" class="form-label fw-bold">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="nama">
+                        <div class="row mt-4">
+                            <div class="col-sm-8 mb-4">
+                                <label for="tempat" class="form-label fw-bold">Tempat Lahir</label>
+                                <input type="text" class="form-control" id="tempat">
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="tglLahir" class="form-label fw-bold">Tanggal Lahir</label>
+                                <input type="date" class="form-control" id="tglLahir">
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <label for="email" class="form-label fw-bold">Alamat Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class=" mt-4 mb-5">
+                            <label for="nomor" class="form-label fw-bold">Nomor Kontak</label>
+                            <input type="number" class="form-control" id="nomor">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <div class="row mt-4">
-            <div class="col-sm-4">
-                <label for="institusiKerja" class="form-label fw-bold">Nama Institusi</label>
-                <input type="text" class="form-control" id="institusiKerja">
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-sm-4">
-                <label for="jabatan" class="form-label fw-bold">Jabatan</label>
-                <input type="text" class="form-control" id="jabatan">
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-sm-2">
-                <label for="mulaiKerja" class="form-label fw-bold">Tgl Mulai</label>
-                <input type="date" class="form-control" id="mulaiKerja">
-            </div>
-            <div class="col-sm-2">
-                <label for="terakhirKerja" class="form-label fw-bold">Tgl Berakhir</label>
-                <input type="date" class="form-control" id="terakhirKerja">
-            </div>
-        </div>
-        <div class="row mt-4 mb-5">
+            <!-- PENDIDIKAN TERAKHIR -->
             <div class="col-sm-6">
-                <label class="form-label fw-bold">Deskripsi</label>
-                <textarea class="form-control" name="deskripsiKerja" rows="5"></textarea>
+                <div class="card border-0 shadow-lg p-4" style="border-radius: 16px;">
+                    <div class="card-body">
+                        <h3 class="fw-bold text-black">Pendidikan Terakhir</h3>
+                        <hr style="border-top: 3px solid #000; margin-top: -4px;">
+                        <div class="row mt-4">
+                            <div class="col-sm-5 mb-4">
+                                <label for="jenjang" class="form-label fw-bold">Jenjang</label>
+                                <select name="jenjang" id="" class="form-select">
+                                    <option value="">-Pilih Jenjang-</option>
+                                    <option value="">SMP/Sederajat</option>
+                                    <option value="">SMA/Sederajat</option>
+                                    <option value="">S1/Sederajat</option>
+                                    <option value="">S2</option>
+                                    <option value="">S3</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-7">
+                                <label for="prodi" class="form-label fw-bold">Program Studi</label>
+                                <input type="text" class="form-control" id="prodi">
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="institusi" class="form-label fw-bold">Institusi Pendidikan</label>
+                            <input type="text" class="form-control" id="institusi">
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-sm-6 mb-3">
+                                <label for="mulai" class="form-label fw-bold">Tgl Mulai</label>
+                                <input type="date" class="form-control" id="mulai">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="terakhir" class="form-label fw-bold">Tgl Berakhir</label>
+                                <input type="date" class="form-control" id="terakhir">
+                            </div>
+                        </div>
+                        <div class="row mt-4 mb-1">
+                            <div class="col-sm-12">
+                                <label class="form-label fw-bold">Pencapaian Selama Pendidikan</label>
+                                <textarea class="form-control" name="deskripsi" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="appliance"></div>
+        <div class="row">
+            <!-- PENGALAMAN KERJA -->
+            <div class="col-sm-6">
+                <div class="card border-0 shadow-lg p-4" style="border-radius: 16px;">
+                    <div class="card-body">
+                        <h3 class="fw-bold text-black">Pengalaman Kerja</h3>
 
-        <div class="row mt-1 mb-5 align-items-center justify-content-start">
-            <div class="col-1">
-                <a id="appendForm" style="font-size: 24pt;" class="border-0" style="background-color: transparent;"><i class="fa-solid fa-circle-plus fa-2x" style="color: #256DD9;"></i></a>
-            </div>
-            <div class="col-10">
-                <a class="fw-bold" style="color: #256DD9; font-size: 20pt; text-decoration: none; margin-left: 32px;">Tambah Pengalaman Kerja</a>
+                        <hr style="border-top: 3px solid #000; margin-top: -4px;">
+
+                        <div class="mt-4 mb-3">
+                            <label for="institusiKerja" class="form-label fw-bold">Nama Institusi</label>
+                            <input type="text" class="form-control" id="institusiKerja">
+                        </div>
+                        <div class="mb-4">
+                            <label for="jabatan" class="form-label fw-bold">Jabatan</label>
+                            <input type="text" class="form-control" id="jabatan">
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-sm-6">
+                                <label for="mulaiKerja" class="form-label fw-bold">Tgl Mulai</label>
+                                <input type="date" class="form-control" id="mulaiKerja">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="terakhirKerja" class="form-label fw-bold">Tgl Berakhir</label>
+                                <input type="date" class="form-control" id="terakhirKerja">
+                            </div>
+                        </div>
+                        <div class="mt-4 mb-5">
+                            <label class="form-label fw-bold">Pencapaian Selama Masa Kerja</label>
+                            <textarea class="form-control" name="deskripsiKerja" rows="5"></textarea>
+                        </div>
+
+                        <div id="appliance"></div>
+
+                        <div id="appendForm">
+                            <div class="row mt-1 mb-5 align-items-center justify-content-start">
+                                <div class="col-1">
+                                    <a style="font-size: 24pt;" class="border-0" style="background-color: transparent;"><i class="fa-solid fa-circle-plus fa-2x" style="color: #256DD9;"></i></a>
+                                </div>
+                                <div class="col-10">
+                                    <a class="fw-bold" style="color: #256DD9; font-size: 20pt; text-decoration: none; margin-left: 32px;">Tambah Pengalaman Kerja</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="row mt-5">
-            <div class="col-sm-5">
-                <!-- SERTIFIKAT KEAHLIAN -->
-                <h3 class="fw-bold text-black">Sertifikat Keahlian</h3>
-                <hr style="border-top: 3px solid #000; margin-top: -4px;">
+            <!-- SERTIFIKAT KEAHLIAN -->
+            <div class="col-sm-6 mb-3">
+                <div class="card border-0 shadow-lg p-4" style="border-radius: 16px;">
+                    <div class="card-body">
+                        <h3 class="fw-bold text-black">Sertifikat Keahlian</h3>
+                        <hr style="border-top: 3px solid #000; margin-top: -4px;">
 
-                <div class="row mt-4">
-                    <div class="col-sm-8">
-                        <label for="jenisSertif" class="form-label fw-bold">Jenis Sertifikat</label>
-                        <input type="text" class="form-control" id="jenisSertif">
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <h5 class="fw-bold">Masa Berlaku</h5>
-                    <div class="col-sm-4">
-                        <label for="mulaiSertif" class="form-label fw-bold">Tgl Mulai</label>
-                        <input type="date" class="form-control" id="mulaiSertif">
-                    </div>
-                    <div class="col-sm-4">
-                        <label for="terakhirSertif" class="form-label fw-bold">Tgl Berakhir</label>
-                        <input type="date" class="form-control" id="terakhirSertif">
-                    </div>
-                </div>
-                <div class="row mt-4 mb-5">
-                    <div class="col-sm-12">
-                        <label class="form-label fw-bold">Deskripsi</label>
-                        <textarea class="form-control" name="deskripsiKerja" rows="5"></textarea>
+                        <div class="my-4">
+                            <label for="jenisSertif" class="form-label fw-bold">Jenis Sertifikat</label>
+                            <input type="text" class="form-control" id="jenisSertif">
+                        </div>
+
+                        <div class="row mb-4">
+                            <h5 class="fw-bold">Masa Berlaku</h5>
+                            <div class="col-sm-6">
+                                <label for="mulaiSertif" class="form-label fw-bold">Tgl Mulai</label>
+                                <input type="date" class="form-control" id="mulaiSertif">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="terakhirSertif" class="form-label fw-bold">Tgl Berakhir</label>
+                                <input type="date" class="form-control" id="terakhirSertif">
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <label class="form-label fw-bold">Deskripsi</label>
+                            <textarea class="form-control" name="deskripsiKerja" rows="5"></textarea>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-1"></div>
-
-            <div class="col-sm-5">
-                <!-- REFERENSI -->
-                <h3 class="fw-bold text-black">Referensi</h3>
-                <hr style="border-top: 3px solid #000; margin-top: -4px;">
-                <div class="row mt-4 mb-5">
-                    <div class="col-sm-12">
-                        <label for="referensi" class="form-label fw-bold">Darimana Anda Mendengar Tentang Kami?</label>
-                        <input type="text" class="form-control" id="referensi">
+            <!-- REFERENSI -->
+            <div class="col-sm-6">
+                <div class="card border-0 shadow-lg p-4" style="border-radius: 16px;">
+                    <div class="card-body">
+                        <h3 class="fw-bold text-black">Referensi</h3>
+                        <hr style="border-top: 3px solid #000; margin-top: -4px;">
+                        <div class="row mt-4 mb-5">
+                            <div class="col-sm-12">
+                                <label for="referensi" class="form-label fw-bold">Darimana Anda Mendengar Tentang Kami?</label>
+                                <input type="text" class="form-control" id="referensi">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

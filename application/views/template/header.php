@@ -98,18 +98,16 @@
 
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-lg">
-            <a class="navbar-brand" href="#" style="color: #062173;"><img src="<?= base_url() . 'assets/img/logo.png'; ?>" style="width: 100px;"> <i><b>Nippisun Indonesia</i></b></a>
+            <a class="navbar-brand" href="#" style="color: #062173; font-size: 12pt;"><img src="<?= base_url() . 'assets/img/logo.png'; ?>" style="width: 100px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="d-flex justify-content-end">
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav fw-bold my-3">
-                        <a class="nav-link" aria-current="page" href="<?= base_url(); ?>">About Us</a>
-                        <a class="nav-link" href="#">Our Workplace</a>
-                        <a class="nav-link" href="<?= base_url() . 'Careers/vacancies'; ?>">Vacancy</a>
-                        <a class="nav-link" href="#">Blog</a>
-                    </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav fw-bold my-3">
+                    <a class="nav-link" aria-current="page" href="<?= base_url(); ?>">About Us</a>
+                    <a class="nav-link" href="#">Our Workplace</a>
+                    <a class="nav-link" href="<?= base_url() . 'Careers/vacancies'; ?>">Vacancy</a>
+                    <a class="nav-link" href="#">Blog</a>
                 </div>
             </div>
         </div>

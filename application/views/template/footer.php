@@ -2,11 +2,11 @@
     <div class="container-lg">
         <div class="row my-3 justify-content-evenly">
             <div class="col-sm-4">
-                <div class="card border-0 shadow rounded-4" style="width: 27rem;">
+                <!-- <div class="card border-0 shadow rounded-4" style="width: 27rem;">
                     <div class="card-body">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15862.529425776183!2d107.08599297696247!3d-6.311933326910079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69900539377c49%3A0xc7ad2ba3ff35c307!2sPT.%20NIPPISUN%20INDONESIA!5e0!3m2!1sid!2sid!4v1654748828464!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="col-sm-5">
                 <h4 class="text-start mt-5"><b>PT. Nippisun Indonesia Factory 1</b></h4>
