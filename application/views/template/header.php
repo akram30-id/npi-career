@@ -10,6 +10,9 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <style>
         body {
             font-family: 'Nunito';
@@ -106,7 +109,7 @@
                 <div class="navbar-nav fw-bold my-3">
                     <a class="nav-link" aria-current="page" href="<?= base_url(); ?>">About Us</a>
                     <a class="nav-link" href="#">Our Workplace</a>
-                    <a class="nav-link" href="<?= base_url() . 'Careers/vacancies'; ?>">Vacancy</a>
+                    <a class="nav-link" href="<?= base_url() . 'vacancies'; ?>">Vacancy</a>
                     <a class="nav-link" href="#">Blog</a>
                 </div>
             </div>

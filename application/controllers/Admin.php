@@ -7,11 +7,6 @@ class Admin extends CI_Controller
     function __construct()
     {
         parent::__construct();
-        if ($this->session->userdata('username') != 'administrator') {
-            // echo "<h1><b>ACCESS DENIED</b></h1>";
-            $this->session->set_flashdata('pesan', '<div class="alert alert-danger text-center" role="alert">ACCESS DENIED</div>');
-            return redirect('Careers/npiAdminCareer');
-        }
     }
 
     public function index()

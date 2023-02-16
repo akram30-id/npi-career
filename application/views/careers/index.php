@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-sm-2">
                         <div class="d-grid gap-2">
-                            <a href="<?= base_url() . 'Careers/vacancies'; ?>" type="submit" class="btn btn-pink-moon rounded-pill" id="allJobs">View All Jobs</a>
+                            <a href="<?= base_url() . 'vacancies'; ?>" type="submit" class="btn btn-pink-moon rounded-pill" id="allJobs">View All Jobs</a>
                         </div>
                     </div>
                 </div>

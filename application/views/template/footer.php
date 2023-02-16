@@ -30,40 +30,6 @@
 
 <!-- Initialize Swiper -->
 <script>
-    $(document).ready(function() {
-        $("#appendForm").click(function() {
-            $("#appliance").append(`
-            <div class="row mt-4">
-                        <div class="col-sm-4">
-                            <label for="institusiKerja" class="form-label fw-bold">Nama Institusi</label>
-                            <input type="text" class="form-control" id="institusiKerja">
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-sm-4">
-                            <label for="jabatan" class="form-label fw-bold">Jabatan</label>
-                            <input type="text" class="form-control" id="jabatan">
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-sm-2">
-                            <label for="mulaiKerja" class="form-label fw-bold">Tgl Mulai</label>
-                            <input type="date" class="form-control" id="mulaiKerja">
-                        </div>
-                        <div class="col-sm-2">
-                            <label for="terakhirKerja" class="form-label fw-bold">Tgl Berakhir</label>
-                            <input type="date" class="form-control" id="terakhirKerja">
-                        </div>
-                    </div>
-                    <div class="row mt-4 mb-5">
-                        <div class="col-sm-6">
-                            <label class="form-label fw-bold">Deskripsi</label>
-                            <textarea class="form-control" name="deskripsiKerja" rows="5"></textarea>
-                        </div>
-                    </div>
-            `);
-        });
-    });
 
     var swiper = new Swiper(".mySwiper", {
         spaceBetween: 50,
@@ -81,6 +47,19 @@
         },
     });
 </script>
+
+<?php if (isset($ajax_url)) {
+    foreach ($ajax_url as $ajax) {
+?>
+
+        <script type="<?= $ajax['type'] ?>" src="<?= BASE_URL() . $ajax['src'] ?>"></script>
+
+<?php }
+} else {
+    echo "";
+}
+?>
+
 </body>
 
 </html>

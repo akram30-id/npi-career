@@ -1,6 +1,19 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
+// vacancies page
+$route['vacancies'] = 'Careers/vacancies';
+
+// apply page
+$route['apply/(:any)'] = 'Apply/index/$1';
+
+// vacancy per divisi page
+$route['divisi/(:any)'] = 'Careers/divisi/$1';
+
+// vacancy detail
+$route['vacancies/detail/(:any)/(:any)'] = 'Careers/detail/$1/$2';
+
 /*
 | -------------------------------------------------------------------------
 | URI ROUTING

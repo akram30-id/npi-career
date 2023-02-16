@@ -3,8 +3,8 @@
         <div class="card-body">
             <nav aria-label="breadcrumb" style="margin-left: 32px;">
                 <ol class="breadcrumb mt-1">
-                    <li class="breadcrumb-item"><a href="<?= base_url(); ?>" style="text-decoration: none;">Career</a></li>
-                    <li class="breadcrumb-item"><a href="<?= base_url() . 'Careers/vacancies'; ?>" style="text-decoration: none;">List Lowongan</a></li>
+                    <li class="breadcrumb-item"><a href="<?= base_url(); ?>" style="text-decoration: none;">Home</a></li>
+                    <li class="breadcrumb-item"><a href="<?= base_url() . 'vacancies'; ?>" style="text-decoration: none;">List Lowongan</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Detail Loker</li>
                 </ol>
             </nav>
