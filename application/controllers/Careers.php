@@ -82,29 +82,4 @@ class Careers extends CI_Controller
         $this->load->view('careers/admin/detail', ['id_vacancy' => $idVacancy, 'id_divisi' => $idDivisi]);
         $this->load->view('template/footer', $data);
     }
-
-    public function apply()
-    {
-        $this->load->view('template/header');
-        $this->load->view('careers/apply');
-        $this->load->view('template/footer');
-    }
-
-    public function applyLowongan()
-    {
-        $this->session->set_flashdata('pesan', '<div class="alert alert-success text-center" role="alert">Data Lamaran Berhasil Dikirim.</div>');
-        return redirect('Careers/vacancies');
-    }
-
-    public function listLowonganDepartemen()
-    {
-        $this->load->view('template/header');
-        $this->load->view('careers/lowongan_departemen');
-        $this->load->view('template/footer');
-    }
-
-    public function npiAdminCareer()
-    {
-        $this->load->view('careers/admin/login');
-    }
 }
