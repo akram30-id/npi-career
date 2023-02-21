@@ -119,7 +119,7 @@ const SortByDivisi = () => {
                                 <div class="row mt-3 justify-content-center align-items-center">
                                     <div class="col-sm-8">
                                         <div class="d-flex justify-content-start">
-                                            <h2 class="fw-bold"><a href="${base_client}admin/detail/${id_divisi}/${id_vacancy}" class="text-decoration-none text-black">${posisi}</a></h2>
+                                            <h2 class="fw-bold"><a href="${base_client}vacancies/detail/${id_divisi}/${id_vacancy}" class="text-decoration-none text-black">${posisi}</a></h2>
                                         </div>
                                         <div class="d-flex justify-content-start my-3">
                                             <h6 class="fw-semibold text-success">${salary}</h6>
@@ -149,7 +149,7 @@ const SortByDivisi = () => {
                                     <div class="col-sm-3">
                                         <div class="d-grid gap-2">
                                             <a href="${base_client}apply/${id_vacancy}" class="btn btn-mockup fw-bold text-white rounded-5">Lamar</a>
-                                            <a href="${base_client}detail/${id_vacancy}" class="btn btn-secondary fw-bold rounded-5" type="button">Detail</a>
+                                            <a href="${base_client}vacancies/detail/${id_divisi}/${id_vacancy}" class="btn btn-secondary fw-bold rounded-5" type="button">Detail</a>
                                         </div>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@ const SortByDivisi = () => {
                             $(`#vacancy-${result.response.data[nama_divisi][0].id_divisi}`).append(`
                                 <div class="d-flex justify-content-center" style="margin-bottom: -56px;">
                                     <div class="col-sm-3">
-                                        <a href="${base_client}admin/divisi/${result.response.data[nama_divisi][0].id_divisi}" class="btn btn-block btn-lg btn-light fw-bold text-primary rounded-5 shadow">Show More</a>
+                                        <a href="${base_client}vacancies/divisi/${result.response.data[nama_divisi][0].id_divisi}" class="btn btn-block btn-lg btn-light fw-bold text-primary rounded-5 shadow">Show More</a>
                                     </div>
                                 </div>
                             `)

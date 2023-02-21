@@ -148,7 +148,7 @@ $(document).ready(function () {
                                                         <div class="row mt-3 justify-content-center align-items-center">
                                                             <div class="col-sm-8">
                                                                 <div class="d-flex justify-content-start">
-                                                                    <h2 class="fw-bold"><a href="${base_client}admin/detail/${id_divisi}/${id_vacancy}" class="text-decoration-none text-black">${posisi}</a></h2>
+                                                                    <h2 class="fw-bold"><a href="${base_client}vacancies/detail/${id_divisi}/${id_vacancy}" class="text-decoration-none text-black">${posisi}</a></h2>
                                                                 </div>
                                                                 <div class="d-flex justify-content-start my-3">
                                                                     <h6 class="fw-semibold text-success">${salary}</h6>
