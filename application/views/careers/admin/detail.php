@@ -35,6 +35,13 @@
             <hr style="border-top: 3px solid #000; margin-top: -8px;">
         </div>
         <div class="col-sm-5">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="d-grid">
+                        <a href="<?= BASE_URL() . 'apply/' . $id_vacancy ?>" class="btn btn-primary rounded-5 text-grey fw-bold mt-4">Lamar</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -44,7 +51,7 @@
         <div class="col-sm-10 mt-5" id="deskripsi">
             <p class="fw-semibold" id="deskripsi-vacancy">
                 <span class="text-white">
-                    Loading . . . . . . . . . . . 
+                    Loading . . . . . . . . . . .
                 </span>
             </p>
         </div>

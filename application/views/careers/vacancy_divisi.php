@@ -23,7 +23,7 @@
             <div class="col-sm-6">
                 <div class="row mt-5 align-items-center">
                     <div class="col-4">
-                        <img src="<?= base_url() . 'assets/img/it.svg'; ?>" style="width: 128px;">
+                        <img src="<?= base_url() . 'assets/img/it.png'; ?>" style="width: 128px;">
                     </div>
                     <div class="col-5">
                         <h1 class="fw-bold text-black nama-divisi" style="font-size: 24pt; margin-top: 32px;">Loading . . . </h1>

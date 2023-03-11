@@ -22,7 +22,7 @@ const SortByDivisi = () => {
                         $("#content-vacancy").html(`
                             <div class="container-lg mt-5" id="${result.response.data[nama_divisi][0].id_divisi}">
                             <div class="d-flex align-items-end">
-                                <img src="${base_client}assets/img/hrd.svg">
+                                <img src="${base_client}assets/img/hrd.png">
                                 <h1 class="text-primary fw-bold" id="divisi" data-id="${result.response.data[nama_divisi][0].id_divisi}" style="margin-bottom: 32px;">${nama_divisi}</h1>
                             </div>
                 
@@ -165,7 +165,7 @@ const SortByDivisi = () => {
                             $(`#vacancy-${result.response.data[nama_divisi][0].id_divisi}`).append(`
                                 <div class="d-flex justify-content-center" style="margin-bottom: -56px;">
                                     <div class="col-sm-3">
-                                        <a href="${base_client}vacancies/divisi/${result.response.data[nama_divisi][0].id_divisi}" class="btn btn-block btn-lg btn-light fw-bold text-primary rounded-5 shadow">Show More</a>
+                                        <a href="${base_client}divisi/${result.response.data[nama_divisi][0].id_divisi}" class="btn btn-block btn-lg btn-light fw-bold text-primary rounded-5 shadow">Show More</a>
                                     </div>
                                 </div>
                             `)
@@ -177,7 +177,7 @@ const SortByDivisi = () => {
                         $("#content-vacancy").html(`
                             <div class="container-lg mt-5">
                             <div class="d-flex align-items-end">
-                                <img src="${base_client}assets/img/hrd.svg">
+                                <img src="${base_client}assets/img/hrd.png">
                                 <h1 class="text-primary fw-bold" style="margin-bottom: 32px;">${nama_divisi}</h1>
                             </div>
                 

@@ -36,7 +36,7 @@ const LatestVacancies = () => {
                                 $("#content-vacancy").append(`
                                     <div class="container-lg mt-5" id="${result.response.data[i].id_divisi}">
                                         <div class="d-flex align-items-end">
-                                            <img src="${base_client}assets/img/hrd.svg">
+                                            <img src="${base_client}assets/img/hrd.png">
                                             <h1 class="text-primary fw-bold" id="divisi" data-id="${result.response.data[i].id_divisi}" style="margin-bottom: 32px;">${result.response.data[i].nama_divisi}</h1>
                                         </div>
                             

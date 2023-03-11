@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="col-sm-5">
-                <img src="<?= base_url() . 'assets/img/it.svg'; ?>" style="width: 256px;">
+                <img src="<?= base_url() . 'assets/img/it.png'; ?>" style="width: 256px;">
             </div>
             <div class="col-sm-2" style="margin-top: -16px; margin-bottom: 32px;">
                 <div class="d-grid gap-2">

@@ -84,7 +84,7 @@ $(document).ready(function () {
                 success: function (result) {
                     if (result.response.status == 200) {
                         $(".vacancy").text(result.response.data.posisi)
-                        $("#detail").prop('href', base_client + 'vacancy/detail/' + result.response.data.id_divisi + '/' + id_vacancy)
+                        $("#detail").prop('href', base_client + 'vacancies/detail/' + result.response.data.id_divisi + '/' + id_vacancy)
                     } else {
                         alert('Internal Server Error')
                     }
