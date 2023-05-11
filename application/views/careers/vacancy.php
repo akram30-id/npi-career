@@ -1,4 +1,3 @@
-<!-- <div class="content"> -->
 <div class="section-one pt-5">
     <div class="row justify-content-center mb-5">
         <div class="col-sm-8">
@@ -31,4 +30,3 @@
         <h3 class="text-center fw-bold"><i>Loading . . . . </i></h3>
     </div>
 </div>
-<!-- </div> -->

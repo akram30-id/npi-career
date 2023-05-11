@@ -111,12 +111,30 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav fw-bold my-3">
-                    <a class="nav-link" aria-current="page" href="<?= base_url(); ?>">About Us</a>
-                    <a class="nav-link" href="#">Our Workplace</a>
-                    <a class="nav-link" href="<?= base_url() . 'vacancies'; ?>">Vacancy</a>
-                    <a class="nav-link" href="#">Blog</a>
-                </div>
+                <ul class="navbar-nav me-auto fw-bold my-3">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="<?= base_url(); ?>">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Workplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url() . 'vacancies'; ?>">Vacancy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+                <!-- <div class="dropdown" id="account">
+                    <button class="btn btn-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-person-circle"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div> -->
             </div>
         </div>
     </nav>

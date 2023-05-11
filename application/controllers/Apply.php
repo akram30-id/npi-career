@@ -3,6 +3,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Apply extends CI_Controller
 {
+
+    function __construct($idLoker)
+    {
+        parent::__construct();
+        if ($this->session->email === NULL) {
+            return redirect('auth/login/' . $idLoker);
+        }
+    }
+
     public function index($idLoker)
     {
         $data['ajax_url'] = [

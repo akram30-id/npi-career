@@ -29,6 +29,10 @@ class Careers extends CI_Controller
                 'src' => 'assets/js/config.js',
                 'type' => 'module'
             ],
+            [
+                'src' => 'assets/js/auth/cek-auth.js',
+                'type' => 'module'
+            ],
         ];
         $this->load->view('template/header');
         $this->load->view('careers/vacancy');

@@ -4,7 +4,7 @@ const LatestVacancies = () => {
 
     $.ajax({
         url: applicant_server + 'latest/sync',
-        type: 'PUT',
+        type: 'GET',
         success: function (result) {
             console.info(result)
         }
@@ -179,7 +179,7 @@ const LatestVacancies = () => {
                                                 </div>
                                                 <div class="col-sm-3">
                                                     <div class="d-grid gap-2">
-                                                    <a href="${base_client}apply/${id_vacancy}" class="btn btn-mockup fw-bold text-white rounded-5">Lamar</a>
+                                                    <button href="${base_client}apply/${id_vacancy}" class="btn btn-mockup btn-apply fw-bold text-white rounded-5">Lamar</button>
                                                     <a href="${base_client}vacancies/detail/${id_divisi}/${id_vacancy}" class="btn btn-secondary fw-bold rounded-5" type="button">Detail</a>
                                                     </div>
                                                 </div>

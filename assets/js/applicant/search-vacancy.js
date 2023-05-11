@@ -177,7 +177,7 @@ $(document).ready(function () {
                                                             </div>
                                                             <div class="col-sm-3">
                                                                 <div class="d-grid gap-2">
-                                                                    <a href="${base_client}apply/${id_vacancy}" class="btn btn-mockup fw-bold text-white rounded-5">Lamar</a>
+                                                                    <a href="${base_client}apply/${id_vacancy}" class="btn btn-mockup btn-apply fw-bold text-white rounded-5">Lamar</a>
                                                                     <a href="${base_client}detail/${id_vacancy}" class="btn btn-secondary fw-bold rounded-5" type="button">Detail</a>
                                                                 </div>
                                                             </div>
