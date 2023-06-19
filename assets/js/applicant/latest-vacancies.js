@@ -182,7 +182,11 @@ const LatestVacancies = () => {
                                                 </div>
                                                 <div class="col-sm-3">
                                                     <div class="d-grid gap-2">
+<<<<<<< HEAD
                                                     <a href="${base_client}apply/${id_vacancy}" class="btn btn-mockup fw-bold text-white rounded-5">Lamar</a>
+=======
+                                                    <button href="${base_client}apply/${id_vacancy}" class="btn btn-mockup btn-apply fw-bold text-white rounded-5">Lamar</button>
+>>>>>>> 98ee95e13a3188106676bb0e21204e1116745f63
                                                     <a href="${base_client}vacancies/detail/${id_divisi}/${id_vacancy}" class="btn btn-secondary fw-bold rounded-5" type="button">Detail</a>
                                                     </div>
                                                 </div>

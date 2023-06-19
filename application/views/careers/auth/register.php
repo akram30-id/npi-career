@@ -68,7 +68,11 @@
                                     </div>
                                     <div class="d-flex justify-content-center">
                                         <p style="margin-right: 8px;">Sudah Punya Akun?</p>
+<<<<<<< HEAD
                                         <a href="<?= base_url('auth/login/' . $idLoker) ?>" class="fw-semibold">Login</a>
+=======
+                                        <a href="<?= base_url('auth/login') ?>" class="fw-semibold">Login</a>
+>>>>>>> 98ee95e13a3188106676bb0e21204e1116745f63
                                     </div>
                                 </div>
                             </div>
